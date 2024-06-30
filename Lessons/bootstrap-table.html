@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Tables</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!--Basic Table
+    A basic Bootstrap 5 table has a light padding and horizontal dividers.
+
+    The .table class adds basic styling to a table:
+    -->
+      <h1>Basic Table</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Striped Table
+        The .table-striped class adds zebra-stripes to a table
+    -->
+
+      <h1>Striped Rows</h1>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Bordered Table
+      The .table-bordered class adds borders on all sides of the table and cells:
+      -->
+      <h1>Bordered Table</h1>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Hover Rows Table
+      The .table-hover class adds a hover effect (grey background color) on table rows:
+      -->
+      <h1>Hover Rows Table</h1>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Black/Dark Table
+        
+      The .table-dark class adds a black background to the table:-->
+
+      <h1>Black/Dark Table</h1>
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Dark Striped Table
+
+      Combine .table-dark and .table-striped to create a dark, striped table:
+      -->
+      <h1>Dark Striped Table</h1>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Hoverable dark table
+      Hoverable Dark Table
+        The .table-hover class adds a hover effect (grey background color) on table rows:
+      -->
+      <h1>Dark Hover Table</h1>
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Borderless Table
+      The .table-borderless class removes borders from the table:
+      -->
+      <h1>Borderless Table</h1>
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Contextual classes
+        .table-primary	Blue: Indicates an important action
+        .table-success	Green: Indicates a successful or positive action
+        .table-danger	Red: Indicates a dangerous or potentially negative action
+        .table-info	Light blue: Indicates a neutral informative change or action
+        .table-warning	Orange: Indicates a warning that might need attention
+        .table-active	Grey: Applies the hover color to the table row or table cell
+        .table-secondary	Grey: Indicates a slightly less important action
+        .table-light	Light grey table or table row background
+        .table-dark	Dark grey table or table row background
+      
+      You can also use any of the contextual classes to only add a background color to the table header:
+        -->
+      <h1>Contextual classes</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-active">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Shri Vishnu</td>
+            <td>B R P</td>
+            <td>shrivishnu@gmail.com</td>
+          </tr>
+          <tr class="table-success">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-danger">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-light">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-dark">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-info">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+          <tr class="table-warning">
+            <td>Sankari</td>
+            <td>B R P</td>
+            <td>sankari@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Small table
+    The .table-sm class makes the table smaller by cutting cell padding in half
+
+    Responsive Tables
+    The .table-responsive class adds a scrollbar to the table when needed (when it is too big horizontally):
+
+    You can also decide when the table should get a scrollbar, depending on the screen width:
+
+    Class	Screen width
+    .table-responsive-sm	< 576px
+    .table-responsive-md	< 768px
+    .table-responsive-lg	< 992px
+    .table-responsive-xl	< 1200px
+    .table-responsive-xxl	< 1400px
+
+    <div class="table-responsive-sm">          
+    <table class="table table-bordered">
+    
+    The .table-responsive-sm class creates a responsive table which will scroll horizontally on screens that are less than 576px wide.
+-->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
